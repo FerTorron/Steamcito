@@ -72,7 +72,7 @@
     rgba(86, 9, 121, 1) 35%,
     rgba(167, 0, 204, 1) 100%
   );
-  padding: 15px 80px;
+  padding: 15px 20px;
   cursor: pointer;
   font-size: 20px;
   width: 60%;
@@ -92,7 +92,6 @@
 
 @media screen and (max-width: 768px) {
   .cardSteamContainer {
-    height: fit-content;
   }
   .cardSteam {
     width: 80%;
