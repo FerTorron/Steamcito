@@ -1,0 +1,39 @@
+.popUpContainer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  color: #8a00c8;
+  border-radius: 50%;
+}
+
+.popUpMessage {
+  width: 250px;
+  height: fit-content;
+  position: fixed;
+  bottom: 110px;
+  right: -500px;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #fff;
+  transition: all 300ms;
+}
+.popUpMessageON {
+  width: 250px;
+  height: fit-content;
+  position: fixed;
+  bottom: 110px;
+  right: 30px;
+  border-radius: 20px;
+  padding: 30px;
+  transition: all 300ms;
+  background-color: #fff;
+}
